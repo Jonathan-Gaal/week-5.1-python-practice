@@ -5,13 +5,12 @@
 **Welcome to the Data Department!** I'm excited to have you join our team. Given your strong performance in your previous role, I'm confident you'll excel here as well. To help you get up to speed with our data analysis tools and processes, I'm assigning you a project that will introduce you to Pandas, a crucial library for data manipulation in Python.
 
 ## Project Objective
-Your task is to analyze our company's employee performance dataset using Pandas. This project will help you familiarize yourself with essential data analysis techniques while providing valuable insights for our HR department.
 
+Your task is to analyze our company's employee performance dataset using Pandas. This project will help you familiarize yourself with essential data analysis techniques while providing valuable insights for our HR department.
 
 ## Environment Setup
 
 If you need a reference for setting up your workspace and virtual environment please refer to the [Python Workspace Setup](https://github.com/jdrichards-pursuit/python-virtual-environment-setup)
-
 
 ## Data:
 
@@ -22,6 +21,7 @@ Before you begin to analyze the data, take a look at the [employee_performance.c
 1. Implement your solution in the `employee_performance_challenge.py` file.
 
 2. Write your functions above the `main` function. The following functions need to be implemented:
+
    - `load_employee_data()`
    - `explore_employee_dataframe(df)`
    - `select_and_filter_employee_data(df)`
@@ -33,6 +33,7 @@ Before you begin to analyze the data, take a look at the [employee_performance.c
 3. The `main` function is already provided and contains calls to your functions.
 
 4. To test your implementation:
+
    - Uncomment the print statements in the `main` function.
    - Run the script in the terminal to see the output using `python3 employee_performance_challenge.py`.
 
@@ -83,7 +84,6 @@ Write a function `employee_data_operations(df)` to:
 - Add a new column `salary_per_year` that displays the salary based on the number of years the employee has worked at the company.
 - Sort the DataFrame by `performance_score` in descending order.
 
-
 ### 5. Find the top 3 employees with the highest salary
 
 Write a function `top_3_employees_with_highest_salary(df)` to:
@@ -91,7 +91,6 @@ Write a function `top_3_employees_with_highest_salary(df)` to:
 - Sort the DataFrame by `salary` in descending order.
 - Select the top 3 employees.
 - Display their `first_name`, `last_name` and `email`, and `salary. Salary should be rounded to 2 decimal places.
-
 
 ### 6. Calculate the average performance score by department
 
@@ -101,11 +100,10 @@ Write a function `avg_performance_score_by_department(df)` to calculate the aver
 
 ### 7. Plot a scatter plot of salary vs years_at_company
 
-Write a function `plot_salary_vs_years_of_experience(df)` to plot a scatter plot of salary vs years_at_company. 
+Write a function `plot_salary_vs_years_of_experience(df)` to plot a scatter plot of salary vs years_at_company.
 
 - use plt.scatter to plot the data
 - use plt.show to display the plot
-
 
 ### Output Snapshots
 
